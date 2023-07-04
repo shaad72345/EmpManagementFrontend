@@ -21,8 +21,7 @@ const navigate = useNavigate();
    navigate("/dashboard");
   }
   else{
-    console.log(res.msg);
-    setError(res.msg);
+  
   }})
    .catch((err)=>console.log(err))
 
